@@ -7,9 +7,9 @@ import java.util.Scanner;
 /**
  * Created by Mathurs on 10/1/16.
  */
-public class RunningMeanValue {
+public class RunningMedianValue {
 
-    public static void runningMeanValue(){
+    public static void runningMedianValue(){
 
         Scanner scanner = new Scanner(System.in);
         int median;
@@ -58,7 +58,6 @@ public class RunningMeanValue {
             }
 
             System.out.println("Current Median = " + median);
-
         }
     }
 }

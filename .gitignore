@@ -6,15 +6,13 @@
 .idea/tasks.xml
 
 # Sensitive or high-churn files:
-.idea/dataSources.ids
-.idea/dataSources.xml
-.idea/dataSources.local.xml
-.idea/sqlDataSources.xml
-.idea/dynamic.xml
-.idea/uiDesigner.xml
+Coding_Practice/.idea/dataSources.ids
+Coding_Practice/.idea/dataSources.xml
+Coding_Practice/.idea/dataSources.local.xml
+Coding_Practice/.idea/dynamic.xml
+Coding_Practice/.idea/uiDesigner.xml
 
 # Gradle:
-.idea/gradle.xml
 .idea/libraries
 
 # Mongo Explorer plugin:
@@ -40,3 +38,4 @@ crashlytics.properties
 crashlytics-build.properties
 fabric.properties
 
+Coding_Practice/.idea/*

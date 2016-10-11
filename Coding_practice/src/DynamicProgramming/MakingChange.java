@@ -25,7 +25,6 @@ public class MakingChange {
             int min = Integer.MAX_VALUE;
 
             for(int c = 0 ; c < coin.length ; c++){
-                //Assuming that the coin denominations are given in ascending order
                 if(coin[c] <= n)
                     min = Math.min(M[n - coin[c]] , min);
             }

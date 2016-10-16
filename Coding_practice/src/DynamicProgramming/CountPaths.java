@@ -22,6 +22,9 @@ public class CountPaths {
         return countPaths(sizeR -1 , sizeC -1);
     }
 
+    /**
+     * Not an efficient way
+     *
     private int countPaths(int row, int col){
         if(row == 0 || col == 0)
             return 1;
@@ -33,6 +36,22 @@ public class CountPaths {
             memory[row][col-1] = countPaths(row , col-1);
 
         return memory[row-1][col] +  memory[row][col-1];
+    }
+     **/
+
+    private int countPaths(int row, int col) {
+        memory = new int[sizeR][sizeC];
+
+        for (int i = 0; i < sizeR; i++) {
+            for (int j = 0; j < sizeC; j++) {
+                if (i == 0 || j == 0)
+                    memory[i][j] = 1;
+                else
+                    memory[i][j] = memory[i - 1][j] + memory[i][j - 1];
+            }
+        }
+
+        return memory[row][col];
     }
 
     public static void main(String[] args){

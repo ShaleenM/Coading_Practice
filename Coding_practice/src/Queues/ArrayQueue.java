@@ -44,6 +44,6 @@ public class ArrayQueue {
     }
 
     public int size(){
-        return size();
+        return size;
     }
 }

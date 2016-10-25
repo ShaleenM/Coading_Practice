@@ -1,6 +1,8 @@
 package Trees;
 
+import java.util.AbstractMap;
 import java.util.LinkedList;
+import java.util.Map;
 import java.util.Queue;
 
 /**
@@ -17,6 +19,8 @@ public class RightViewOfTree {
         queue.add(null);
 
         while(!queue.isEmpty()){
+
+//            Map.Entry<String, Float> entry = new AbstractMap.SimpleEntry<String, Float>("exmpleString", 42.0f);
 
             BinaryTreeNode node = queue.remove();
 

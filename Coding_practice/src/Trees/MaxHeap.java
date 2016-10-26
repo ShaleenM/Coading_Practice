@@ -76,8 +76,6 @@ public class MaxHeap {
 
             k = l;
             l = 2*k +1;
-//            if(l >= size)
-//                break;
         }
     }
 
